@@ -74,6 +74,7 @@
 // subclass overrides
 - (void)nodeDidLoad {}
 - (void)nodeDidLayout {}
+- (void)nodeWillCalculateLayout:(ASSizeRange)constrainedSize {}
 
 - (void)didEnterVisibleState {}
 - (void)didExitVisibleState  {}
